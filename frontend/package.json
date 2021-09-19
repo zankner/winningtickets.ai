@@ -1,0 +1,29 @@
+{
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-brands-svg-icons": "^5.15.4",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/react-fontawesome": "^0.1.15",
+        "@headlessui/react": "^1.4.1",
+        "axios": "^0.21.4",
+        "formik": "^2.2.9",
+        "fuse.js": "^6.4.6",
+        "next": "^11.1.2",
+        "prettier": "^2.4.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.3.4",
+        "postcss": "^8.3.6",
+        "tailwindcss": "^2.2.15"
+    }
+}
