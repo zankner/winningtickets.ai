@@ -35,8 +35,14 @@ const HomePage = () => {
     axios.post("/api/models/create",formData,{headers: {'content-type': 'multipart/form-data'}})
       .then((res) => {
         console.log("success");
-        actions.setSubmitting(false);
-        setShowAddModel(false);
+        axios.get("/api/models/get")
+        .then((res) => {
+          setModels(res.data);
+          setResModels(res.data);
+
+          actions.setSubmitting(false);
+          setShowAddModel(false);
+        })
       })
       .catch((err) => {
         actions.setSubmitting(false);
