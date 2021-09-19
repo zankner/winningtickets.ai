@@ -295,7 +295,7 @@ const HomePage = () => {
         <div className="container mx-auto md:flex md:items-center">
 
           <div className="flex justify-between items-center">
-            <a href="#" className="font-black text-3xl text-indigo-600">WinningTickets</a>
+            <a href="#" className="font-black text-3xl text-indigo-600">WinningTicket</a>
             <button className="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" id="navbar-toggle">
               <i className="fas fa-bars"></i>
             </button>
